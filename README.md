@@ -23,6 +23,7 @@ Einfach reinschieben in das schwarze Loch oben
 - schauen ob das filament gerade ist und keine knoten (also X gekreutztes filament) in der rolle sind
   - falls das beim drucken passiert: rolle abnehmen, den teil mit dem knoten links runterziehen und "den knoten" verdrucken lassen
 
+*Filament von mkg ist für 30€/kg zu haben*
 
 ## Slicing im Prusa-Slicer
 
@@ -48,6 +49,9 @@ Einfach reinschieben in das schwarze Loch oben
 - wenn alles fertig ist: "jetzt slicen" -> geslictes anschauen
   -> physischen drucker auswählen (G> button erscheint) -> "hochladen und drucken"
 
+#### benchy
+
+Für den ersten 3d-druck versuch ohne konkretes Objekt kann ein Benchy gedruckt werden
 
 ## nach dem start
 - warten bis erste schicht gedruckt
