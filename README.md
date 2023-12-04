@@ -8,7 +8,7 @@ Powerschalter hinten rechts
 
 #### Druckplatte leeren
 
-zuerst reinigen (iso propanol oder iso wasser gemisch, keinen anderen reiniger)
+Zuerst reinigen (iso propanol oder iso wasser gemisch, keinen anderen reiniger)
 - evtl plastikrümel entfernen da die sonst im druck landen, ohne reinigung haftet evtl das werkstück nicht
 
 ### Filament laden
@@ -22,6 +22,7 @@ Einfach reinschieben in das schwarze Loch oben
 ***WICHTIG***
 - schauen ob das filament gerade ist und keine knoten (also X gekreutztes filament) in der rolle sind
   - falls das beim drucken passiert: rolle abnehmen, den teil mit dem knoten links runterziehen und "den knoten" verdrucken lassen
+- kein müll-fillament "für 10€/kg" verwenden da das zu problemen führt (brüchig, druckt nicht gescheit)
 
 *Filament von mkg ist für 30€/kg zu haben*
 
@@ -54,6 +55,7 @@ Einfach reinschieben in das schwarze Loch oben
 Für den ersten 3d-druck versuch ohne konkretes Objekt kann ein Benchy gedruckt werden
 
 ## nach dem start
+
 - warten bis erste schicht gedruckt
 - periodisch nachschauen (ca jede 30m)
   - wegen filament knoten und eventuellem ablösen vom gedruckten
