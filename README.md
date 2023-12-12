@@ -2,11 +2,11 @@
 
 ## vor dem druck
 
-#### Einschalten
+### Einschalten
 
 Powerschalter hinten rechts
 
-#### Druckplatte leeren
+### Druckplatte leeren
 
 Zuerst reinigen (iso propanol oder iso wasser gemisch, keinen anderen reiniger)
 - evtl plastikrümel entfernen da die sonst im druck landen, ohne reinigung haftet evtl das werkstück nicht
@@ -28,11 +28,11 @@ Einfach reinschieben in das schwarze Loch oben
 
 ## Slicing im Prusa-Slicer
 
-#### setup
+### setup
 - konfigurations assistent -> prusa fff -> mk4 0.4 mm nozzle mit input shaper
 - physischen drucker hinzufügen: ip 192.169.69.36, api key eingeben, test butten drücken
 
-#### optionen
+### optionen
 
 - für die meisten drucke ist 0.2 MM Speed geignet, andernfalls andere `DETAIL` schichthöhen auswählen
 
@@ -51,8 +51,9 @@ Einfach reinschieben in das schwarze Loch oben
 
 - wenn alles fertig ist: "jetzt slicen" -> geslictes anschauen
   -> physischen drucker auswählen (G> button erscheint) -> "hochladen und drucken"
+  - beim filepath den eigenen namen hinzufügen z.B. `user/...bgcode`
 
-#### benchy
+### benchy
 
 Für den ersten 3d-druck versuch ohne konkretes Objekt kann ein Benchy gedruckt werden
 
@@ -77,11 +78,11 @@ Für den ersten 3d-druck versuch ohne konkretes Objekt kann ein Benchy gedruckt 
 
 ## nach dem druck
 
-#### unloaden
+### unloaden
   - im home menü: filament -> unload
   - unload passiert automatisch, nicht ziehen, warten
   - es kam schon vor das leute einfach das filament das drin war
     verwendet haben ohne zu fragen. am besten einfach unloaden nach verwendung.
 
-#### abschalten
+### abschalten
   - powerschalter hinten rechts
