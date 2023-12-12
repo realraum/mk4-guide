@@ -16,7 +16,7 @@ Zuerst reinigen (iso propanol oder iso wasser gemisch, keinen anderen reiniger)
 Einfach reinschieben in das schwarze Loch oben
   - wenn das reinschieben fehlschlägt (klackert, zieht nicht) dann muss die spitze vom filament mit einer zange abgeschnitten werden (ca 45°)
     - im menü beim filament typ return auswählen, filament wird ausgeladen
-- dann im menü filament typ auswählen (meistens pla)
+- dann im menü filament typ auswählen (meistens pla, bitte aber nochmal auf der rolle nachschauen)
 - schauen ob farbe stimmt, dann yes sonst purge more
 
 ***WICHTIG***
@@ -24,7 +24,7 @@ Einfach reinschieben in das schwarze Loch oben
   - falls das beim drucken passiert: rolle abnehmen, den teil mit dem knoten links runterziehen und "den knoten" verdrucken lassen
 - kein müll-fillament "für 10€/kg" verwenden da das zu problemen führt (brüchig, druckt nicht gescheit)
 
-*Filament von mkg ist für 30€/kg zu haben*
+*Filament von mkg ist für 30€/kg zu haben, grammzahl ist im slicer sichtbar*
 
 ## Slicing im Prusa-Slicer
 
@@ -35,6 +35,8 @@ Einfach reinschieben in das schwarze Loch oben
 #### optionen
 
 - für die meisten drucke ist 0.2 MM Speed geignet, andernfalls andere `DETAIL` schichthöhen auswählen
+
+- **WICHTIG** material korrekt einstellen. in der regel pla, aber bitte auch auf der rolle schauen.
 
 - wenn nur ein kleiner teil des objekts am boden haftet (bspws beine und darüber ein größerer körper)
   muss der rand aktiviert werden um die haftung zu verbessern
