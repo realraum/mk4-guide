@@ -51,7 +51,7 @@ Einfach reinschieben in das schwarze Loch oben.
 
 - wenn alles fertig ist: "jetzt slicen" -> geslicetes anschauen
   -> physischen Drucker auswählen (G> Button erscheint) -> "hochladen und drucken"
-  Beim Filepath den eigenen Namen hinzufügen, z.B. `user/...bgcode`
+  - Beim Filepath den eigenen Namen hinzufügen, z.B. `user/...bgcode`
 
 ### benchy
 
