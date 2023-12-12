@@ -1,6 +1,6 @@
-# 3D Druck einführung
+# 3D Druck Einführung
 
-## vor dem druck
+## vor dem Druck
 
 ### Einschalten
 
@@ -8,81 +8,81 @@ Powerschalter hinten rechts
 
 ### Druckplatte leeren
 
-Zuerst reinigen (iso propanol oder iso wasser gemisch, keinen anderen reiniger)
-- evtl plastikrümel entfernen da die sonst im druck landen, ohne reinigung haftet evtl das werkstück nicht
+Zuerst reinigen (Isopropanol oder Isopropanol+Wassergemisch, keinen anderen Reiniger)
+- evtl. Plastikkrümel entfernen, da diese sonst im Druck landen, ohne Reinigung haftet evtl. das Werkstück nicht.
 
 ### Filament laden
 
-Einfach reinschieben in das schwarze Loch oben
-  - wenn das reinschieben fehlschlägt (klackert, zieht nicht) dann muss die spitze vom filament mit einer zange abgeschnitten werden (ca 45°)
-    - im menü beim filament typ return auswählen, filament wird ausgeladen
-- dann im menü filament typ auswählen (meistens pla, bitte aber nochmal auf der rolle nachschauen)
-- schauen ob farbe stimmt, dann yes sonst purge more
+Einfach reinschieben in das schwarze Loch oben.
+  - wenn das Reinschieben fehlschlägt (klackert, zieht nicht) dann muss die Spitze vom Filament mit einer Zange abgeschnitten werden (ca. 45° schnitt)
+    - Falls fehlgeschlagen: im Menü beim Filament-Typ "Return" auswählen, Filament wird wieder ausgeladen.
+- dann im Menü Filament-Typ auswählen (meistens PLA, bitte aber nochmal auf der Rolle nachschauen)
+- schauen ob Farbe stimmt, dann "Yes", sonst "Purge more"
 
 ***WICHTIG***
-- schauen ob das filament gerade ist und keine knoten (also X gekreutztes filament) in der rolle sind
-  - falls das beim drucken passiert: rolle abnehmen, den teil mit dem knoten links runterziehen und "den knoten" verdrucken lassen
-- kein müll-fillament "für 10€/kg" verwenden da das zu problemen führt (brüchig, druckt nicht gescheit)
+- schauen, ob das Filament gerade ist und keine Knoten (also X gekreuztes Filament) in der Rolle sind
+  - falls das beim Drucken passiert: Rolle abnehmen, den Teil mit dem Knoten links runterziehen und "den Knoten" verdrucken lassen
+- kein Müll-Filament "für 10€/kg" verwenden, da das zu Problemen führt (brüchig, druckt nicht gescheit)
 
-*Filament von mkg ist für 30€/kg zu haben, grammzahl ist im slicer sichtbar*
+*Filament von mkg ist für 30€/kg zu haben, Grammzahl ist im Slicer sichtbar.*
 
 ## Slicing im Prusa-Slicer
 
-### setup
-- konfigurations assistent -> prusa fff -> mk4 0.4 mm nozzle mit input shaper
-- physischen drucker hinzufügen: ip 192.169.69.36, api key eingeben, test butten drücken
+### Setup
+- Konfigurations-Assistent -> Prusa FFF -> MK4 0.4 mm Nozzle mit Input Shaper
+- physischen Drucker hinzufügen: IP 192.169.69.36, API Key eingeben, Test button drücken
 
-### optionen
+### Optionen
 
-- für die meisten drucke ist 0.2 MM Speed geignet, andernfalls andere `DETAIL` schichthöhen auswählen
+- für die meisten Drucke ist 0.2 MM Speed geeignet, andernfalls andere `DETAIL` Schichthöhen auswählen.
 
-- **WICHTIG** material korrekt einstellen. in der regel pla, aber bitte auch auf der rolle schauen.
+- **WICHTIG** Material korrekt einstellen. In der Regel PLA, aber bitte auch auf der Rolle schauen.
 
-- wenn nur ein kleiner teil des objekts am boden haftet (bspws beine und darüber ein größerer körper)
-  muss der rand aktiviert werden um die haftung zu verbessern
-  sonst fällt das objekt beim drucken ab und es gibt spaghetti
+- wenn nur ein kleiner Teil des Objekts am Boden haftet (bspw. Beine und darüber ein größerer Körper)
+  muss der Rand aktiviert werden, um die Haftung zu verbessern
+  sonst fällt das Objekt beim Drucken ab und es gibt Spaghetti
 
-- bei objekten die graduell nach oben gehen (z.B. verkehrter cylinder) sind keine stützen erforderlich
-  evtl generiert der slicer "sicherheitshalber" stüzen, diese können getrost deaktiviert werden
-- falls zu viele unnötige stüzen da sind, aber einige wichtig:
-  im menü rechts "XY.stl -> rechtsklick -> stützverstärker hinzufügen -> (form auswählen und positionieren)"
-  dann "stüzen nur für stüzverstärker"
-- bei zu großen objekten prusa slicer schneide funktion verwenden
+- bei Objekten die graduell nach oben gehen (z.B. verkehrter Zylinder) sind keine Stützen erforderlich
+  evtl. generiert der Slicer "sicherheitshalber" Stützen, diese können getrost deaktiviert werden
+- falls zu viele unnötige Stützen da sind, aber einige wichtig:
+  im Menü rechts "XY.stl -> Rechtsklick -> Stützverstärker hinzufügen -> (Form auswählen und positionieren)"
+  dann "stützen nur für Stützverstärker"
+- bei zu großen Objekten Prusa Slicer Schneidefunktion verwenden.
 
-- wenn alles fertig ist: "jetzt slicen" -> geslictes anschauen
-  -> physischen drucker auswählen (G> button erscheint) -> "hochladen und drucken"
-  - beim filepath den eigenen namen hinzufügen z.B. `user/...bgcode`
+- wenn alles fertig ist: "jetzt slicen" -> geslicetes anschauen
+  -> physischen Drucker auswählen (G> Button erscheint) -> "hochladen und drucken"
+  Beim Filepath den eigenen Namen hinzufügen, z.B. `user/...bgcode`
 
 ### benchy
 
 Für den ersten 3d-druck versuch ohne konkretes Objekt kann ein Benchy gedruckt werden
 
-## nach dem start
+## nach dem Start
 
-- warten bis erste schicht gedruckt
-- periodisch nachschauen (ca jede 30m)
-  - wegen filament knoten und eventuellem ablösen vom gedruckten
-- wenn der drucker "klack klack klack" macht:
+- warten bis erste Schicht gedruckt
+- periodisch nachschauen (ca. jede 30m)
+  - wegen Filament-Knoten und eventuellem Ablösen vom gedruckten
+- wenn der Drucker "klack klack klack" macht:
   - druck pausieren
-  - folgende mögliche fehler:
-    - filament kommt nicht hinterher (bspws knoten)
-    - filament kann nicht reingezogen werden (irgendein bollen an der spitze)
-    - anderer fehler
-  - unter tune kann filament ein/ausgeladen werden
-- der drucker schiebt filament raus bewegt sich aber nicht:
-  - der drucker muss gehomed werden. druck abbrechen in home control -> auto home
+  - Folgende mögliche Fehler:
+    - Filament kommt nicht hinterher (bspw. Knoten)
+    - Filament kann nicht nachgezogen werden (irgendein Bollen an der Spitze)
+    - anderer Fehler
+  - unter "Tune" kann Filament ein/ausgeladen werden
+- der Drucker schiebt Filament raus, bewegt sich aber nicht:
+  - der Drucker muss gehomed werden. Druck abbrechen in home "Control -> Auto Home"
   - dannach druck erneut versuchen
 
-*bei druckerschäden oder unklarheiten mkg oder commander kontaktieren*
+*bei Druckerschäden oder Unklarheiten mkg oder commander kontaktieren.*
 
 
-## nach dem druck
+## nach dem Druck
 
 ### unloaden
-  - im home menü: filament -> unload
-  - unload passiert automatisch, nicht ziehen, warten
-  - es kam schon vor das leute einfach das filament das drin war
-    verwendet haben ohne zu fragen. am besten einfach unloaden nach verwendung.
+  - Im Home-Menü: Filament -> Unload
+  - Upload passiert automatisch, nicht ziehen, warten.
+  - es kam schon vor das Leute einfach das Flament, das drin war
+    verwendet haben, ohne zu fragen. Am besten einfach unloaden nach Verwendung.
 
 ### abschalten
   - powerschalter hinten rechts
