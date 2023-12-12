@@ -59,6 +59,8 @@ Für den ersten 3d-druck versuch ohne konkretes Objekt kann ein Benchy gedruckt 
 
 ## nach dem Start
 
+*Lass den Printer-Speed in Ruhe. Der Druck sieht schlecht aus und es gibt evtl. Probleme da das Filament nicht schnell genug schmiltzt.*
+
 - warten bis erste Schicht gedruckt
 - periodisch nachschauen (ca. jede 30m)
   - wegen Filament-Knoten und eventuellem Ablösen vom gedruckten
