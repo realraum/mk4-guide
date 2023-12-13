@@ -1,0 +1,21 @@
+name: Build PDF
+
+on: push
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: cachix/install-nix-action@v22
+        with:
+          github_access_token: ${{ secrets.GITHUB_TOKEN }}
+      - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
+      - run: nix-channel --update
+      - run: ./pdf.sh
+      - name: Store pdf
+        uses: actions/upload-artifact@v3
+        with:
+          name: pdf
+          path: README.pdf
+
