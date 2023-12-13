@@ -86,5 +86,7 @@ Für den ersten 3d-druck versuch ohne konkretes Objekt kann ein Benchy gedruckt 
   - es kam schon vor das Leute einfach das Flament, das drin war
     verwendet haben, ohne zu fragen. Am besten einfach unloaden nach Verwendung.
 
+**WICHTIG** Nach dem Unloaden des Filaments im Home Menü "Preheat -> Cooldown" oder Drucker abschalten um das Heizen zu beenden. (Der Drucker beginnt wieder zu heizen nach dem Unload)
+
 ### abschalten
   - powerschalter hinten rechts
