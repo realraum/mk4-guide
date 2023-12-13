@@ -9,7 +9,7 @@ Powerschalter hinten rechts
 ### Druckplatte leeren
 
 Zuerst reinigen (Isopropanol oder Isopropanol+Wassergemisch, keinen anderen Reiniger)
-- evtl. Plastikkrümel entfernen, da diese sonst im Druck landen, ohne Reinigung haftet evtl. das Werkstück nicht.
+- Plastikkrümel entfernen, da diese sonst im Druck landen, ohne Reinigung haftet evtl. das Werkstück nicht.
 
 ### Filament laden
 
