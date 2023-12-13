@@ -59,7 +59,7 @@ Für den ersten 3d-druck versuch ohne konkretes Objekt kann ein Benchy gedruckt 
 
 ## nach dem Start
 
-*:information_source: Lass den Printer-Speed in Ruhe. Der Druck sieht schlecht aus und es gibt evtl. Probleme da das Filament nicht schnell genug schmiltzt.*
+*:information_source: Lass den Print-Speed in Ruhe. Es ist meist nicht viel schneller, sieht schlecht aus und es gibt evtl. Probleme da das Filament nicht schnell genug schmiltzt. Wenn du die Druckzeit nachhaltig reduzieren willst: 0.2 MM Speed, dann oben "Druckeinstellungen" -> "Schichthöhe" & "Höhe der Ersten Schicht" auf 0.3*
 
 - warten bis erste Schicht gedruckt
 - periodisch nachschauen (ca. jede 30m)
