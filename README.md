@@ -19,10 +19,10 @@ Einfach reinschieben in das schwarze Loch oben.
 - dann im Menü Filament-Typ auswählen (meistens PLA, bitte aber nochmal auf der Rolle nachschauen)
 - schauen ob Farbe stimmt, dann "Yes", sonst "Purge more"
 
-***WICHTIG***
+***WICHTIG :exclamation:***
 - schauen, ob das Filament gerade ist und keine Knoten (also X gekreuztes Filament) in der Rolle sind
   - falls das beim Drucken passiert: Rolle abnehmen, den Teil mit dem Knoten links runterziehen und "den Knoten" verdrucken lassen
-- kein Müll-Filament "für 10€/kg" verwenden, da das zu Problemen führt (brüchig, druckt nicht gescheit)
+- :forbidden_sign: kein Müll-Filament "für 10€/kg" verwenden, da das zu Problemen führt (brüchig, druckt nicht gescheit)
 
 *Filament von mkg ist für 30€/kg zu haben, Grammzahl ist im Slicer sichtbar.*
 
@@ -36,7 +36,7 @@ Einfach reinschieben in das schwarze Loch oben.
 
 - für die meisten Drucke ist 0.2 MM Speed geeignet, andernfalls andere `DETAIL` Schichthöhen auswählen.
 
-- **WICHTIG** Material korrekt einstellen. In der Regel PLA, aber bitte auch auf der Rolle schauen.
+- **WICHTIG** :exclamation: Material korrekt einstellen. In der Regel PLA, aber bitte auch auf der Rolle schauen.
 
 - wenn nur ein kleiner Teil des Objekts am Boden haftet (bspw. Beine und darüber ein größerer Körper)
   muss der Rand aktiviert werden, um die Haftung zu verbessern
@@ -59,7 +59,7 @@ Für den ersten 3d-druck versuch ohne konkretes Objekt kann ein Benchy gedruckt 
 
 ## nach dem Start
 
-*Lass den Printer-Speed in Ruhe. Der Druck sieht schlecht aus und es gibt evtl. Probleme da das Filament nicht schnell genug schmiltzt.*
+*:information_source: Lass den Printer-Speed in Ruhe. Der Druck sieht schlecht aus und es gibt evtl. Probleme da das Filament nicht schnell genug schmiltzt.*
 
 - warten bis erste Schicht gedruckt
 - periodisch nachschauen (ca. jede 30m)
@@ -86,7 +86,7 @@ Für den ersten 3d-druck versuch ohne konkretes Objekt kann ein Benchy gedruckt 
   - es kam schon vor das Leute einfach das Flament, das drin war
     verwendet haben, ohne zu fragen. Am besten einfach unloaden nach Verwendung.
 
-**WICHTIG** Nach dem Unloaden des Filaments im Home Menü "Preheat -> Cooldown" oder Drucker abschalten um das Heizen zu beenden. (Der Drucker beginnt wieder zu heizen nach dem Unload)
+**WICHTIG** :exclamation: Nach dem Unloaden des Filaments im Home Menü "Preheat -> Cooldown" oder Drucker abschalten um das Heizen zu beenden. (Der Drucker beginnt wieder zu heizen nach dem Unload)
 
 ### abschalten
   - powerschalter hinten rechts
