@@ -39,7 +39,7 @@ Einfach reinschieben in das schwarze Loch oben.
 - **WICHTIG** :exclamation: Material korrekt einstellen. In der Regel PLA, aber bitte auch auf der Rolle schauen.
 
 - wenn nur ein kleiner Teil des Objekts am Boden haftet (bspw. Beine und darüber ein größerer Körper)
-  muss der Rand aktiviert werden, um die Haftung zu verbessern
+  muss der Rand (engl. "brim") aktiviert werden, um die Haftung zu verbessern
   sonst fällt das Objekt beim Drucken ab und es gibt Spaghetti
 
 - bei Objekten die graduell nach oben gehen (z.B. verkehrter Zylinder) sind keine Stützen erforderlich
