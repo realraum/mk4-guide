@@ -29,12 +29,12 @@ Einfach reinschieben in das schwarze Loch oben.
 ## Slicing im Prusa-Slicer
 
 ### Setup
-- Konfigurations-Assistent -> Prusa FFF -> MK4 0.4 mm Nozzle mit Input Shaper
+- Konfigurations-Assistent -> Prusa FFF -> MK4 0.4 mm Nozzle mit Input Shaper (und optional 0.25 mm und 0.6 mm Nozzle)
 - physischen Drucker hinzufügen: IP 192.169.69.36, API Key eingeben, Test button drücken
 
 ### Optionen
 
-- für die meisten Drucke ist 0.2 MM Speed geeignet, andernfalls andere `DETAIL` Schichthöhen auswählen.
+- für die meisten Drucke ist `0.2 MM SPEED` geeignet. Wenn es stabil sein muss, bitte `0.2 MM STRUCTURAL`, andernfalls andere `DETAIL` Schichthöhen auswählen (weniger Höhe = mehr Detail).
 
 - **WICHTIG** :exclamation: Material korrekt einstellen. In der Regel PLA, aber bitte auch auf der Rolle schauen.
 
@@ -59,7 +59,7 @@ Für den ersten 3d-druck versuch ohne konkretes Objekt kann ein Benchy gedruckt 
 
 ## nach dem Start
 
-*:information_source: Lass den Print-Speed in Ruhe. Es ist meist nicht viel schneller, sieht schlecht aus und es gibt evtl. Probleme da das Filament nicht schnell genug schmiltzt. Wenn du die Druckzeit nachhaltig reduzieren willst: 0.2 MM Speed, dann oben "Druckeinstellungen" -> "Schichthöhe" & "Höhe der Ersten Schicht" auf 0.3*
+*:information_source: Lass den Print-Speed in Ruhe. Es ist meist nicht viel schneller, sieht schlecht aus und es gibt evtl. Probleme da das Filament nicht schnell genug schmiltzt. Wenn du die Druckzeit nachhaltig reduzieren willst: 0.2 MM Speed, dann oben "Druckeinstellungen" -> "Schichthöhe" & "Höhe der Ersten Schicht" auf 0.3. Oder mit 0.6 Nozzle drucken und 0.32 mm Schichthöhe.*
 
 - warten bis erste Schicht gedruckt
 - periodisch nachschauen (ca. jede 30m)
