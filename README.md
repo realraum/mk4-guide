@@ -1,4 +1,4 @@
-# 3D Druck Einführung
+# 3D Druck Einführung (MK4 Drucker)
 
 ## vor dem Druck
 
@@ -10,6 +10,12 @@ Powerschalter hinten rechts
 
 Zuerst reinigen (Isopropanol oder Isopropanol+Wassergemisch, keinen anderen Reiniger)
 - Plastikkrümel entfernen, da diese sonst im Druck landen, ohne Reinigung haftet evtl. das Werkstück nicht.
+
+### Nozzle größe prüfen
+
+Standardmäßig ist die 0.4 mm Nozzle geladen.
+
+In Zukunft wird es einen Indikator am Drucker geben ob eine andere Nozzle verwendet wird.
 
 ### Filament laden
 
