@@ -3,5 +3,5 @@
 
 set -euo pipefail
 
-VERSION=$(git log --pretty=format:'%h %ad [%an] %s' HEAD~...HEAD)
+VERSION=$(git show --oneline  --pretty=format:'%h %ad [%an] %s' HEAD~...HEAD | head -n 1)
 sed -i "2i version: $VERSION" README.md
