@@ -1,5 +1,11 @@
 # 3D Druck Einführung (MK4 Drucker)
 
+## prusa connect
+
+Seit neuestem wird jedem 3d-eingeschultem Zugang zu der Prusa Connect Gruppe gegeben
+
+Dieser kann bei mkg20001 angefragt werden
+
 ## vor dem Druck
 
 ### Einschalten
@@ -14,6 +20,8 @@ Zuerst reinigen (Isopropanol oder Isopropanol+Wassergemisch, keinen anderen Rein
 ### Nozzle größe prüfen
 
 Standardmäßig ist die 0.4 mm Nozzle geladen.
+
+Welche Nozzle aktuell geladen ist, kann in Prusa Connect unter Settings eingesehen werden.
 
 In Zukunft wird es einen Indikator am Drucker geben ob eine andere Nozzle verwendet wird.
 
@@ -96,7 +104,8 @@ Für den ersten 3d-druck versuch ohne konkretes Objekt kann ein Benchy gedruckt 
  - Nach dem Unloaden des Filaments im Home Menü "Preheat -> Cooldown" oder Drucker abschalten um das Heizen zu beenden. (Der Drucker beginnt wieder zu heizen nach dem Unload)
  - In der Spule sind Löcher. Das Filament soll durch diese Löcher gefädelt werden, so das es sich während der Lagerung nicht verknotet (übereinanderlegt), was andernfalls zu Schäden am Drucker führen kann (Drucker reist Rolle vom Halter z.B.)
 
-  - filament dannach im regal verräumen
+
+ - filament dannach im regal verräumen
 
 ### abschalten
   - powerschalter hinten rechts
