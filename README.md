@@ -92,9 +92,11 @@ Für den ersten 3d-druck versuch ohne konkretes Objekt kann ein Benchy gedruckt 
   - es kam schon vor das Leute einfach das Flament, das drin war
     verwendet haben, ohne zu fragen. Am besten einfach unloaden nach Verwendung.
 
-**WICHTIG** :exclamation: Nach dem Unloaden des Filaments im Home Menü "Preheat -> Cooldown" oder Drucker abschalten um das Heizen zu beenden. (Der Drucker beginnt wieder zu heizen nach dem Unload)
+**WICHTIG** :exclamation:
+ - Nach dem Unloaden des Filaments im Home Menü "Preheat -> Cooldown" oder Drucker abschalten um das Heizen zu beenden. (Der Drucker beginnt wieder zu heizen nach dem Unload)
+ - In der Spule sind Löcher. Das Filament soll durch diese Löcher gefädelt werden, so das es sich während der Lagerung nicht verknotet (übereinanderlegt), was andernfalls zu Schäden am Drucker führen kann (Drucker reist Rolle vom Halter z.B.)
 
-**WICHTIG** :exclamation: In der Spule sind Löcher. Das Filament soll durch diese Löcher gefädelt werden, so das es sich während der Lagerung nicht verknotet (übereinanderlegt), was andernfalls zu Schäden am Drucker führen kann (Drucker reist Rolle vom Halter z.B.)
+  - filament dannach im regal verräumen
 
 ### abschalten
   - powerschalter hinten rechts
