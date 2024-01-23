@@ -27,7 +27,14 @@ In Zukunft wird es einen Indikator am Drucker geben ob eine andere Nozzle verwen
 
 ### Filament laden
 
-Einfach reinschieben in das schwarze Loch oben.
+Kleine Rollen (eSun 1kg, bspws) können mit dem Spulenhalter am Drucker verwendet werden.
+
+Große Rollen können mit dem grün-schwarzem Kugellager verwendet werden. Dieser sollte 90° gedreht stehen.
+
+In beiden Fällen sollte das Filament durch den Fädler gefädelt werden.
+
+Dannach einfach reinschieben in das schwarze Loch oben.
+
   - wenn das Reinschieben fehlschlägt (klackert, zieht nicht) dann muss die Spitze vom Filament mit einer Zange abgeschnitten werden (ca. 45° schnitt)
     - Falls fehlgeschlagen: im Menü beim Filament-Typ "Return" auswählen, Filament wird wieder ausgeladen.
 - dann im Menü Filament-Typ auswählen (meistens PLA, bitte aber nochmal auf der Rolle nachschauen)
