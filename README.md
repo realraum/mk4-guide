@@ -1,5 +1,7 @@
 # 3D-Druck Einführung (MK4 Drucker)
 
+_Fehlt etwas? Verbesserungsvorschläge? GitHub: github.com/realraum/mk4-guide_
+
 ## prusa connect
 
 Der Zugang zum 3D-Drucker erfolgt über die Prusa Connect API nach der Einschulung.
