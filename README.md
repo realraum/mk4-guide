@@ -1,10 +1,10 @@
-# 3D Druck Einführung (MK4 Drucker)
+# 3D-Druck Einführung (MK4 Drucker)
 
 ## prusa connect
 
-Der Zugang zum 3D-Drucker erfolgt über die Prusa Connect API nach der Einschulung
+Der Zugang zum 3D-Drucker erfolgt über die Prusa Connect API nach der Einschulung.
 
-Die Einladung in Prusa Connect sowie die Einschulung kann bei mkg20001 angefragt werden
+Die Einladung in Prusa Connect sowie die Einschulung können bei mkg20001 angefragt werden.
 
 ## vor dem Druck
 
@@ -31,21 +31,21 @@ Kleine Rollen (alle 1KG rollen) können mit dem Spulenhalter am Drucker verwende
 
 Große Rollen können mit dem grün-schwarzem Kugellager verwendet werden. Dieser sollte 90° gedreht stehen.
 
-Es kann auch aus dem Filamenttrockner gedruckt werden, achte aber darauf dass, das Filament nicht verbogen ist, da das sonst das Nachziehen blockiert.
+Es kann auch aus dem Filamenttrockner gedruckt werden, achte aber darauf, dass das Filament nicht verbogen ist, da das sonst das Nachziehen blockiert.
 
 In beiden Fällen sollte das Filament durch den Fädler gefädelt werden.
 
-Dannach einfach reinschieben in das schwarze Loch oben.
+Danach einfach reinschieben in das schwarze Loch oben.
 
   - wenn das Reinschieben fehlschlägt (klackert, zieht nicht) dann muss die Spitze vom Filament mit einer Zange abgeschnitten werden (ca. 45° schnitt)
     - Falls fehlgeschlagen: im Menü beim Filament-Typ "Return" auswählen, Filament wird wieder ausgeladen.
-    - Beim Ausladen vom Filament aus dem MK4 kann die Spitze problemlos wieder verwendet werden. Bei anderen Druckern ist evtl. Abschneiden erfordelich.
+    - Beim Ausladen vom Filament aus dem MK4 kann die Spitze problemlos wieder verwendet werden. Bei anderen Druckern ist evtl. Abschneiden erforderlich.
 - dann im Menü Filament-Typ auswählen (meistens PLA, bitte aber nochmal auf der Rolle nachschauen)
-- schauen ob Farbe stimmt, dann "Yes", sonst "Purge more"
+- schauen, ob Farbe stimmt, dann "Yes", sonst "Purge more"
 
 ***WICHTIG :exclamation:***
 - schauen, ob das Filament gerade ist und keine Knoten (also X gekreuztes Filament) in der Rolle sind
-  - falls das beim Drucken passiert: Rolle abnehmen, den Teil mit dem Knoten links runterziehen und "den Knoten" verdrucken lassen
+  - falls das beim Drucken passiert: Rolle abnehmen, den Teil mit dem Knoten links herunterziehen und "den Knoten" verdrucken lassen
 - :forbidden_sign: kein Müll-Filament "für 10€/kg" verwenden, da das zu Problemen führt (brüchig, druckt nicht gescheit)
 
 *Filament von mkg ist für 30€/kg zu haben, Grammzahl ist im Slicer sichtbar.*
@@ -60,7 +60,7 @@ Dannach einfach reinschieben in das schwarze Loch oben.
   - Einstellungen
     - Typ: Prusa Connect
     - API Key: Auf connect.prusa3d.com beim Drucker unter dem Tab `Settings` "Prusa Connect API Key"
-  - Dannach Test button drücken, speichern
+  - Danach Test button drücken, speichern
 
 ### Optionen
 
@@ -70,10 +70,10 @@ Dannach einfach reinschieben in das schwarze Loch oben.
 
 - **Druckplatte**: Es gibt zwei Druckplatten, die Raue (schlecht Haftend) und die Glatte (gut Haftend)
   - PETG: immer die Raue Platte, da PETG sehr gute Haftung hat und die glatte Platte beschädigt
-  - PLA: wenn nur ein kleiner Teil des Objekts am Boden haftet (bspw. Beine und darüber ein größerer Körper) empfiehlt es sich die gut haftende platte zu verwenden um die Haftung zu verbessern sonst fällt das Objekt beim Drucken ab und es gibt Spaghetti
-    - alternativ kann der Rand (engl. "brim") aktiviert werden, beachte aber das dieser von Hand entfernt werden muss
+  - PLA: wenn nur ein kleiner Teil des Objekts am Boden haftet (bspw. Beine und darüber ein größerer Körper) empfiehlt es sich, die gut haftende platte zu verwenden, um die Haftung zu verbessern, sonst fällt das Objekt beim Drucken ab und es gibt Spaghetti
+    - alternativ kann der Rand (engl. "brim") aktiviert werden, beachte aber, dass dieser von Hand entfernt werden muss
 
-- bei Objekten die graduell nach oben gehen (z.B. verkehrter Zylinder) sind keine Stützen erforderlich
+- bei Objekten, die graduell nach oben gehen (z.B. verkehrter Zylinder) sind keine Stützen erforderlich
   evtl. generiert der Slicer "sicherheitshalber" Stützen, diese können getrost deaktiviert werden
 - falls zu viele unnötige Stützen da sind, aber einige wichtig:
   im Menü rechts "XY.stl -> Rechtsklick -> Stützverstärker hinzufügen -> (Form auswählen und positionieren)"
@@ -101,10 +101,10 @@ Für den ersten 3d-druck versuch ohne konkretes Objekt kann ein Benchy gedruckt 
     - Filament kommt nicht hinterher (bspw. Knoten)
     - Filament kann nicht nachgezogen werden (irgendein Bollen an der Spitze)
     - anderer Fehler
-  - unter "Tune" kann Filament ein/ausgeladen werden
+  - unter "Tune" kann Filament ein-/ausgeladen werden
 - der Drucker schiebt Filament raus, bewegt sich aber nicht:
   - der Drucker muss gehomed werden. Druck abbrechen in home "Control -> Auto Home"
-  - dannach druck erneut versuchen
+  - Danach druck erneut versuchen
 
 *bei Druckerschäden oder Unklarheiten mkg oder commander kontaktieren.*
 
@@ -119,10 +119,10 @@ Für den ersten 3d-druck versuch ohne konkretes Objekt kann ein Benchy gedruckt 
 
 **WICHTIG** :exclamation:
  - Nach dem Unloaden des Filaments im Home Menü "Preheat -> Cooldown" oder Drucker abschalten um das Heizen zu beenden. (Der Drucker beginnt wieder zu heizen nach dem Unload)
- - In der Spule sind Löcher. Das Filament soll durch diese Löcher gefädelt werden, so das es sich während der Lagerung nicht verknotet (übereinanderlegt), was andernfalls zu Schäden am Drucker führen kann (Drucker reist Rolle vom Halter z.B.)
+ - In der Spule sind Löcher. Das Filament soll durch diese Löcher gefädelt werden, so dass es sich während der Lagerung nicht verknotet (übereinanderlegt), was andernfalls zu Schäden am Drucker führen kann (Drucker reist Rolle vom Halter z.B.)
 
 
- - filament dannach im regal verräumen
+ - Filament danach im Regal verräumen
 
 ### abschalten
   - powerschalter hinten rechts
@@ -131,12 +131,12 @@ Für den ersten 3d-druck versuch ohne konkretes Objekt kann ein Benchy gedruckt 
 
 ### Filament trocknen
 
-Falls zu viel stringing beim Druck entsteht oder der Druck sehr schlecht aussieht könnte es an nassem Filament liegen.
+Falls zu viel stringing beim Druck entsteht oder der Druck sehr schlecht aussieht, könnte es an nassem Filament liegen.
 
 Das Filament kann mit dem Filamenttrockner verwendet werden.
 
 - Filament reintun
-- Falls aus dem trockner gedruckt werden soll: Durch das loch oben ziehen
+- Falls aus dem Trockner gedruckt werden soll: Durch das Loch oben ziehen
 - Power-Knopf drücken
 - M-Knopf drücken, Temperatur mit Pfeiltasten einstellen (PLA: 40-45 °C, PETG 50 °C)
 - M-Knopf drücken, Zeit mit Pfeiltasten einstellen
