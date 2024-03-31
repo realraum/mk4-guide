@@ -2,9 +2,9 @@
 
 ## prusa connect
 
-Seit neuestem wird jedem 3d-eingeschultem Zugang zu der Prusa Connect Gruppe gegeben
+Der Zugang zum 3D-Drucker erfolgt über die Prusa Connect API nach der Einschulung
 
-Dieser kann bei mkg20001 angefragt werden
+Die Einladung in Prusa Connect sowie die Einschulung kann bei mkg20001 angefragt werden
 
 ## vor dem Druck
 
@@ -27,9 +27,11 @@ In Zukunft wird es einen Indikator am Drucker geben ob eine andere Nozzle verwen
 
 ### Filament laden
 
-Kleine Rollen (eSun 1kg, bspws) können mit dem Spulenhalter am Drucker verwendet werden.
+Kleine Rollen (alle 1KG rollen) können mit dem Spulenhalter am Drucker verwendet werden.
 
 Große Rollen können mit dem grün-schwarzem Kugellager verwendet werden. Dieser sollte 90° gedreht stehen.
+
+Es kann auch aus dem Filamenttrockner gedruckt werden, achte aber darauf dass, das Filament nicht verbogen ist, da das sonst das Nachziehen blockiert.
 
 In beiden Fällen sollte das Filament durch den Fädler gefädelt werden.
 
@@ -37,6 +39,7 @@ Dannach einfach reinschieben in das schwarze Loch oben.
 
   - wenn das Reinschieben fehlschlägt (klackert, zieht nicht) dann muss die Spitze vom Filament mit einer Zange abgeschnitten werden (ca. 45° schnitt)
     - Falls fehlgeschlagen: im Menü beim Filament-Typ "Return" auswählen, Filament wird wieder ausgeladen.
+    - Beim Ausladen vom Filament aus dem MK4 kann die Spitze problemlos wieder verwendet werden. Bei anderen Druckern ist evtl. Abschneiden erfordelich.
 - dann im Menü Filament-Typ auswählen (meistens PLA, bitte aber nochmal auf der Rolle nachschauen)
 - schauen ob Farbe stimmt, dann "Yes", sonst "Purge more"
 
@@ -51,7 +54,13 @@ Dannach einfach reinschieben in das schwarze Loch oben.
 
 ### Setup
 - Konfigurations-Assistent -> Prusa FFF -> MK4 0.4 mm Nozzle mit Input Shaper (und optional 0.25 mm und 0.6 mm Nozzle)
-- physischen Drucker hinzufügen: IP 192.169.69.36, API Key eingeben, Test button drücken
+- Im Interface rechts neben Drucker: Zahnrad -> physischen Drucker hinzufügen:
+  - Neben dem Druckertyp zweimal auf das Plus klicken
+  - In den Feldern MK4 mit jeweils 0.25, 0.4 und 0.6 Nozzle auswählen
+  - Einstellungen
+    - Typ: Prusa Connect
+    - API Key: Auf connect.prusa3d.com beim Drucker unter dem Tab `Settings` "Prusa Connect API Key"
+  - Dannach Test button drücken, speichern
 
 ### Optionen
 
@@ -59,9 +68,10 @@ Dannach einfach reinschieben in das schwarze Loch oben.
 
 - **WICHTIG** :exclamation: Material korrekt einstellen. In der Regel PLA, aber bitte auch auf der Rolle schauen.
 
-- wenn nur ein kleiner Teil des Objekts am Boden haftet (bspw. Beine und darüber ein größerer Körper)
-  muss der Rand (engl. "brim") aktiviert werden, um die Haftung zu verbessern
-  sonst fällt das Objekt beim Drucken ab und es gibt Spaghetti
+- **Druckplatte**: Es gibt zwei Druckplatten, die Raue (schlecht Haftend) und die Glatte (gut Haftend)
+  - PETG: immer die Raue Platte, da PETG sehr gute Haftung hat und die glatte Platte beschädigt
+  - PLA: wenn nur ein kleiner Teil des Objekts am Boden haftet (bspw. Beine und darüber ein größerer Körper) empfiehlt es sich die gut haftende platte zu verwenden um die Haftung zu verbessern sonst fällt das Objekt beim Drucken ab und es gibt Spaghetti
+    - alternativ kann der Rand (engl. "brim") aktiviert werden, beachte aber das dieser von Hand entfernt werden muss
 
 - bei Objekten die graduell nach oben gehen (z.B. verkehrter Zylinder) sind keine Stützen erforderlich
   evtl. generiert der Slicer "sicherheitshalber" Stützen, diese können getrost deaktiviert werden
@@ -116,3 +126,18 @@ Für den ersten 3d-druck versuch ohne konkretes Objekt kann ein Benchy gedruckt 
 
 ### abschalten
   - powerschalter hinten rechts
+
+## sonstiges
+
+### Filament trocknen
+
+Falls zu viel stringing beim Druck entsteht oder der Druck sehr schlecht aussieht könnte es an nassem Filament liegen.
+
+Das Filament kann mit dem Filamenttrockner verwendet werden.
+
+- Filament reintun
+- Falls aus dem trockner gedruckt werden soll: Durch das loch oben ziehen
+- Power-Knopf drücken
+- M-Knopf drücken, Temperatur mit Pfeiltasten einstellen (PLA: 40-45 °C, PETG 50 °C)
+- M-Knopf drücken, Zeit mit Pfeiltasten einstellen
+- M-Knopf drücken, Trockner ist jetzt im Modus "Work" (trocknen) und zeigt Feuchtigkeit und Temperatur an
