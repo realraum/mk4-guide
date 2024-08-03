@@ -2,11 +2,28 @@
 
 _Fehlt etwas? Verbesserungsvorschläge? GitHub: github.com/realraum/mk4-guide_
 
-## prusa connect
+## zugang
 
 Der Zugang zum 3D-Drucker erfolgt über die Prusa Connect API nach der Einschulung.
 
-Die Einladung in Prusa Connect sowie die Einschulung können bei mkg20001 angefragt werden.
+Die Einladung zu Prusa Connect sowie die Einschulung können bei mkg20001 angefragt werden.
+
+## kosten / material
+
+Das Drucken auf dem Drucker kostet 1ct/g als Basispreis.
+
+Filament von mkg (beschriftet) kann für ein paar Cent verwendet werden.
+
+ - PLA/PETG kostet 3ct/g (gesamt 4ct/g)
+
+ - Polycarbonat kostet 7ct/g (gesamt 8ct/g)
+
+Drucken mit eigenem Filament kostet 1ct/g.
+
+Gezahlt werden kann:
+
+- in Bar: Spendebox neben dem Drucker
+- per Überweisung: Kontodaten von mkg auf Nachfrage
 
 ## vor dem Druck
 
@@ -17,7 +34,7 @@ Powerschalter hinten rechts
 ### Druckplatte leeren
 
 Zuerst reinigen (Isopropanol oder Isopropanol+Wassergemisch, keinen anderen Reiniger)
-- Plastikkrümel entfernen, da diese sonst im Druck landen, ohne Reinigung haftet evtl. das Werkstück nicht.
+- Plastikkrümel und Materialreste entfernen, da diese sonst im Druck landen, ohne Reinigung haftet evtl. das Werkstück nicht.
 
 ### Nozzle größe prüfen
 
@@ -50,7 +67,7 @@ Danach einfach reinschieben in das schwarze Loch oben.
   - falls das beim Drucken passiert: Rolle abnehmen, den Teil mit dem Knoten links herunterziehen und "den Knoten" verdrucken lassen
 - :forbidden_sign: kein Müll-Filament "für 10€/kg" verwenden, da das zu Problemen führt (brüchig, druckt nicht gescheit)
 
-*Filament von mkg ist für 30€/kg zu haben, Grammzahl ist im Slicer sichtbar.*
+*Filament von mkg ist für 3ct/g bzw. 30€/kg zu haben, Grammzahl ist im Slicer sichtbar.*
 
 ## Slicing im Prusa-Slicer
 
@@ -109,7 +126,6 @@ Für den ersten 3d-druck versuch ohne konkretes Objekt kann ein Benchy gedruckt 
   - Danach druck erneut versuchen
 
 *bei Druckerschäden oder Unklarheiten mkg oder commander kontaktieren.*
-
 
 ## nach dem Druck
 
