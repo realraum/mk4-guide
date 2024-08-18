@@ -25,6 +25,16 @@ Gezahlt werden kann:
 - in Bar: Spendebox neben dem Drucker
 - per Überweisung: Kontodaten von mkg auf Nachfrage
 
+## sicherheitshinweise
+
+Beim Tausch von Nozzles die Spitze unter 60°C abkühlen lassen oder nur mit Werkzeug berühren.
+
+Beim Druck mit PLA, PETG, Polycarbonat sind keine besonderen Sicherheitsvorkehrungen erforderlich.
+
+Für den Druck mit ABS/ASA und derivaten ist ein Abzug und eine gute Belüftung notwendig.
+
+Für den Druck mit Glasfaser- und Carbonfaserfilamenten ist eine Beschichtung nach dem Drucken aufzutragen (z.B. Resin, Epoxy oder andere stabile Beschichtungen), da diese Fasern bei Berührung auch in die Haut gelangen können und sich dort festsetzen können.
+
 ## vor dem Druck
 
 ### Einschalten
