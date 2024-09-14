@@ -8,6 +8,14 @@ Der Zugang zum 3D-Drucker erfolgt über die Prusa Connect API nach der Einschulu
 
 Die Einladung zu Prusa Connect sowie die Einschulung können bei mkg20001 angefragt werden.
 
+## info
+
+Das Slicen von 3D-Druck Objekten erfordert einen Laptop mit dem [Prusa Slicer](https://www.prusa3d.com/page/prusaslicer_424/).
+
+Es wird empfohlen nur die neuste Version zu verwenden. (bspws. ist die Version im Standard-Repository von Ubuntu nicht aktuell.)
+
+Bitte für die Einführung einen Laptop mitnehmen.
+
 ## kosten / material
 
 Das Drucken auf dem Drucker kostet 1ct/g als Basispreis.
