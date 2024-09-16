@@ -101,7 +101,7 @@ Danach einfach reinschieben in das schwarze Loch oben.
 
 ### Optionen
 
-- für die meisten Drucke ist `0.2 MM SPEED` geeignet. Wenn es stabil sein muss, bitte `0.2 MM STRUCTURAL`, andernfalls andere `DETAIL` Schichthöhen auswählen (weniger Höhe = mehr Detail).
+- für die meisten Drucke ist `0.2 MM SPEED` geeignet. Wenn es stabil sein muss, bitte `0.2 MM STRUCTURAL`, andernfalls andere `DETAIL` Schichthöhen auswählen (weniger Höhe = mehr Detail). Mit der 0.6 Nozzle kann für nicht sehr detailierte Drucke auch `0.32 STRUCTURAL` verwendet werden um die Druckzeit zu verkürzen.
 
 - **WICHTIG** :exclamation: Material korrekt einstellen. In der Regel PLA, aber bitte auch auf der Rolle schauen.
 
