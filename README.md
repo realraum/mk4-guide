@@ -56,7 +56,7 @@ Zuerst reinigen (Isopropanol oder Isopropanol+Wassergemisch, keinen anderen Rein
 
 ### Nozzle größe prüfen
 
-Standardmäßig ist die 0.4 mm Nozzle geladen.
+Standardmäßig ist die 0.6 mm Nozzle geladen.
 
 Welche Nozzle aktuell geladen ist, kann in Prusa Connect unter Settings eingesehen werden.
 
