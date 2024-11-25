@@ -51,8 +51,8 @@ Powerschalter hinten rechts
 
 ### Druckplatte leeren
 
-Zuerst reinigen (Isopropanol oder Isopropanol+Wassergemisch, keinen anderen Reiniger)
-- Plastikkrümel und Materialreste entfernen, da diese sonst im Druck landen, ohne Reinigung haftet evtl. das Werkstück nicht.
+Zuerst reinigen (Isopropanol oder Isopropanol+Wassergemisch oder Bildschirmreiniger, keinen anderen Reiniger)
+- Plastikkrümel und Materialreste entfernen, da diese sonst im Druck landen, ohne Reinigung haftet evtl. das Werkstück nicht gut.
 
 ### Nozzle größe prüfen
 
