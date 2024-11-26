@@ -177,3 +177,12 @@ Das Filament kann mit dem Filamenttrockner verwendet werden.
 - M-Knopf drücken, Temperatur mit Pfeiltasten einstellen (PLA: 40-45 °C, PETG 50 °C)
 - M-Knopf drücken, Zeit mit Pfeiltasten einstellen
 - M-Knopf drücken, Trockner ist jetzt im Modus "Work" (trocknen) und zeigt Feuchtigkeit und Temperatur an
+
+### Recycling
+
+Alle 3D Drucker Reste sind sortenreines Plastik (PLA, PETG, etc) und daher ideal geeignet um tatsächlich in neues Filament recycled zu werden. (Ganz im Gegenzug zu normalem Plastikmüll der einfach verbrannt wird). Stützmaterial und auch der selten mal fehlgeschlagene Druck sind viel zu Schade für den normalen Plastikmüll. Daher kommt dieser in usere Recycling-Box!
+Diese ist getrennt in zwei Hälften: PLA und PETG. Du findest sie unter dem 3D Drucker. Bitte wirf deine 3D Druck-Reste sortenrein getrennt in die richtige Seite ein.
+Bitte decke die Recycling-Box wieder ab, damit kein Staub, Öl oder Dreck dazu kommt.
+
+Weitere Details findest du z.B.: [bei der Recyclingfabrik](https://www.recyclingfabrik.com/pages/versandlabel)
+
