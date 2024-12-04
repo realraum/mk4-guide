@@ -169,13 +169,13 @@ Für den ersten 3d-druck versuch ohne konkretes Objekt kann ein Benchy gedruckt 
 
 3mf-Dateien enthalten ungeslicte Objekte sowie die Slicer-Einstellungen, während G-Code Dateien lediglich eine Abfolge von Drucker-Bewegungen enthalten.
 
-Änderungen an Slicing-Parametern wie z.B. Druckertyp oder Nozzle sind nur mit der 3mf-Datei möglich. Jedesmal von Hand neueinstellen ist auch keine Gute Idee.
+Änderungen an Slicing-Parametern wie z.B. Druckertyp oder Nozzle sind nur mit der 3mf-Datei möglich. Jedes Mal von Hand neu einstellen ist auch keine Gute Idee.
 
 3mf-Dateien werden durch Speichern (nicht Exportieren!) im Slicer erstellt.
 
 Der USB ist kein guter Dauerspeicher, da es sich hierbei um ein Billig-China-USB handelt mit begrenzter Lebenszeit (es ist bereits ein USB eingegangen).
 
-Außerdem bring Prusa ca. jedes halbe Jahr ein Drucker-Upgrade in Hard- oder Softwarebereich heraus das ein neu-slicen erfordert.
+Außerdem bringt Prusa ca. jedes halbe Jahr ein Drucker-Upgrade im Hard- oder Softwarebereich heraus, das ein neu-slicen erfordert.
 
 ### Filament trocknen
 
