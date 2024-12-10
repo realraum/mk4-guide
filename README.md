@@ -101,7 +101,11 @@ Danach einfach reinschieben in das schwarze Loch oben.
 
 ### Optionen
 
-- für die meisten Drucke ist `0.2 MM SPEED` geeignet. Wenn es stabil sein muss, bitte `0.2 MM STRUCTURAL`, andernfalls andere `DETAIL` Schichthöhen auswählen (weniger Höhe = mehr Detail). Mit der 0.6 Nozzle kann für nicht sehr detailierte Drucke auch `0.32 STRUCTURAL` verwendet werden um die Druckzeit zu verkürzen.
+- für die meisten Drucke, die eher strukturellen Zweck haben als schön aussehen müssen, ist  `0.32 MM STRUCTURAL` mit der 0.6 mm Nozzle geeignet
+  - für detaillierte Teile, bei denen der 0.6 MM Druck zu Kantig ist, kann die Höhe gesenkt oder die Nozzle bspws. auf 0.4 mm getauscht werden
+- soll der Druck etwas schöner aussehen, kann auch `0.2 MM STRUCTURAL` verwendet werden
+  - für Figuren die extra schön aussehen sollen kann die Nozzle auf 0.25 MM getauscht werden und `0.07 MM DETAIL` als Höhe verwendet werden
+  - das führt zu längern Druckzeiten, ist es aber in der Regel wert.
 
 - **WICHTIG** :exclamation: Material korrekt einstellen. In der Regel PLA, aber bitte auch auf der Rolle schauen.
 
