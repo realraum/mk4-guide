@@ -2,6 +2,16 @@
 
 _Fehlt etwas? Verbesserungsvorschläge? GitHub: github.com/realraum/mk4-guide_
 
+---
+WICHTIG: Der Drucker wurde vor kurzem auf MK4S upgraded
+
+Im Slicer bitte den neuen Druckertyp konfigurieren und verwenden:
+
+1. Menü > Konfiguration > Konfigurationsassistent
+2. Im Menü Links: Unter Prusa Research HF0.6, HF0.4 und 0.25 (kein HF) als Nozzle hinzufügen. Assistent beenden mit Knopf unten
+3. Falls physischer Drucker hinzugefügt: Physischen Drucker in Druckerliste auswählen, Drucker verwalten (Zahnrad Rechts), 3 Nozzles mit den entsprechenden MK4S equivalent austauschen.
+---
+
 ## zugang
 
 Der Zugang zum 3D-Drucker erfolgt über die Prusa Connect API nach der Einschulung.
@@ -90,7 +100,7 @@ Danach einfach reinschieben in das schwarze Loch oben.
 ## Slicing im Prusa-Slicer
 
 ### Setup
-- Konfigurations-Assistent -> Prusa FFF -> MK4 0.4 mm Nozzle mit Input Shaper (und optional 0.25 mm und 0.6 mm Nozzle)
+- Menü > Konfiguration > Konfigurations-Assistent -> Prusa Research -> MK4S: HF0.6, HF0.4, 0.25 (kein HF)
 - Im Interface rechts neben Drucker: Zahnrad -> physischen Drucker hinzufügen:
   - Neben dem Druckertyp zweimal auf das Plus klicken
   - In den Feldern MK4 mit jeweils 0.25, 0.4 und 0.6 Nozzle auswählen
@@ -194,6 +204,21 @@ Das Filament kann mit dem Filamenttrockner verwendet werden.
 - M-Knopf drücken, Zeit mit Pfeiltasten einstellen
 - M-Knopf drücken, Trockner ist jetzt im Modus "Work" (trocknen) und zeigt Feuchtigkeit und Temperatur an
 
+### Nozzle tauschen
+
+Nozzle Tausch Anleitung von Prusa: https://bit.ly/3VSGQyK
+
+Folgende Nozzle-Größen und Typen sind verfügbar:
+- 0.6 MM High-Flow Hardened (Obsidian)
+- 0.4 MM High-Flow (Messing)
+- 0.25 MM (Messing)
+
+Nachdem die Nozzle getauscht wurde muss die Nozzle-Größe im Menü angepasst werden.
+
+Unter Hardware > Printhead können die Größe sowie weiter Optionen eingestellt werden.
+
+Bitte aktiviere oder deaktiviere die entsprechendn Zusatzoptionen (High-Flow, Hardened) beim Einstellen.
+
 ### Recycling
 
 Alle 3D Drucker Reste sind sortenreines Plastik (PLA, PETG, etc) und daher ideal geeignet um tatsächlich in neues Filament recycled zu werden. (Ganz im Gegenzug zu normalem Plastikmüll der einfach verbrannt wird). Stützmaterial und auch der selten mal fehlgeschlagene Druck sind viel zu Schade für den normalen Plastikmüll. Daher kommt dieser in usere Recycling-Box!
@@ -201,4 +226,3 @@ Diese ist getrennt in zwei Hälften: PLA und PETG. Du findest sie unter dem 3D D
 Bitte decke die Recycling-Box wieder ab, damit kein Staub, Öl oder Dreck dazu kommt.
 
 Weitere Details findest du z.B.: [bei der Recyclingfabrik](https://www.recyclingfabrik.com/pages/versandlabel)
-
