@@ -1,5 +1,5 @@
 #!/usr/bin/env nix-shell
-#!nix-shell -i bash -p pandoc -p texlive.combined.scheme-small -p nodejs -p inkscape
+#!nix-shell -i bash -p pandoc -p "pkgs.texlive.combine({ inherit (pkgs.texlive) scheme-small qrcode; })" -p nodejs -p inkscape
 
 # src https://learnbyexample.github.io/customizing-pandoc/
 
@@ -10,6 +10,8 @@ if [ ! -e emoji/node_modules ]; then
 fi
 
 pandoc README.md \
+    --verbose \
+    -H header.tex \
     -f gfm \
     -V linkcolor:blue \
     -V geometry:a4paper \

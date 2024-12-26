@@ -1,3 +1,8 @@
+---
+title: 3D-Druck Einführung (MK4 Drucker)
+author: Maciej Krüger (mkg20001) and contributors
+---
+
 # 3D-Druck Einführung (MK4 Drucker)
 
 _Fehlt etwas? Verbesserungsvorschläge? GitHub: github.com/realraum/mk4-guide_
@@ -8,7 +13,7 @@ WICHTIG: Der Drucker wurde vor kurzem auf MK4S upgraded
 Im Slicer bitte den neuen Druckertyp konfigurieren und verwenden:
 
 1. Menü > Konfiguration > Konfigurationsassistent
-2. Im Menü Links: Unter Prusa Research HF0.6, HF0.4 und 0.25 (kein HF) als Nozzle hinzufügen. Assistent beenden mit Knopf unten
+2. Im Menü Links: Unter Prusa Research HF0.6, HF0.4 und 0.25 (kein HF) als Nozzle hinzufügen. Assistent beenden mit "Beenden" Knopf unten.
 3. Falls physischer Drucker hinzugefügt: Physischen Drucker in Druckerliste auswählen, Drucker verwalten (Zahnrad Rechts), 3 Nozzles mit den entsprechenden MK4S equivalent austauschen.
 ---
 
@@ -95,7 +100,7 @@ Danach einfach reinschieben in das schwarze Loch oben.
   - falls das beim Drucken passiert: Rolle abnehmen, den Teil mit dem Knoten links herunterziehen und "den Knoten" verdrucken lassen
 - :forbidden_sign: kein Müll-Filament "für 10€/kg" verwenden, da das zu Problemen führt (brüchig, druckt nicht gescheit)
 
-*Filament von mkg ist für 3ct/g bzw. 30€/kg zu haben, Grammzahl ist im Slicer sichtbar.*
+*Filamentpreise siehe oben, Grammzahl ist im Slicer sichtbar.*
 
 ## Slicing im Prusa-Slicer
 
@@ -206,10 +211,10 @@ Das Filament kann mit dem Filamenttrockner verwendet werden.
 
 ### Nozzle tauschen
 
-Nozzle Tausch Anleitung von Prusa: https://bit.ly/3VSGQyK
+Nozzle Tausch Anleitung von Prusa: https://bit.ly/3VSGQyK $\qrcode[height=13mm]{https://bit.ly/3VSGQyK}$
 
 Folgende Nozzle-Größen und Typen sind verfügbar:
-- 0.6 MM High-Flow Hardened (Obsidian)
+- 0.6 MM High-Flow, Hardened (Obsidian)
 - 0.4 MM High-Flow (Messing)
 - 0.25 MM (Messing)
 
