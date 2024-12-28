@@ -7,44 +7,44 @@ author: Maciej Krüger (mkg20001) und Bernhard Tittelbach (xro)
 
 ## Nozzle-Changer holen
 
-![](./nozzle/p_1.jpg)
+![](./small/nozzle/p_1.jpg)
 
 ## Unten montieren
 
-![](./nozzle/p_2.jpg)
+![](./small/nozzle/p_2.jpg)
 
 ## Tür öffnen
 
-![](./nozzle/p_3.jpg)
+![](./small/nozzle/p_3.jpg)
 
 ## Räder gegen den uhrzeigersinn aufdrehen
 
-![](./nozzle/p_4.jpg)
+![](./small/nozzle/p_4.jpg)
 
 ## Schraubendreher holen
 
-![](./nozzle/p_5.jpg)
+![](./small/nozzle/p_5.jpg)
 
 ## In Uhrzeigersinn Nozzle abdrehen
 
-![](./nozzle/p_6.jpg)
+![](./small/nozzle/p_6.jpg)
 
 ## Neue Nozzle nehmen
 
-![](./nozzle/p_7.jpg)
+![](./small/nozzle/p_7.jpg)
 
 ## Montieren
 
-![](./nozzle/p_8.jpg)
+![](./small/nozzle/p_8.jpg)
 
 ## Räder im Uhrzeigersinn schließen
 
-![](./nozzle/p_9.jpg)
+![](./small/nozzle/p_9.jpg)
 
 ## Tür schließen
 
-![](./nozzle/p_10.jpg)
+![](./small/nozzle/p_10.jpg)
 
 ## Nozzle-Changer entfernen
 
-![](./nozzle/p_11.jpg)
+![](./small/nozzle/p_11.jpg)
