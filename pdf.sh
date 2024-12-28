@@ -9,7 +9,8 @@ if [ ! -e emoji/node_modules ]; then
   popd
 fi
 
-pandoc README.md \
+for f in *.md; do
+  pandoc "$f" \
     --verbose \
     -H header.tex \
     -f gfm \
@@ -20,4 +21,5 @@ pandoc README.md \
     -V monofont="DejaVu Sans Mono" \
     --pdf-engine=xelatex \
     --filter=emoji/emoji_filter.js \
-    -o README.pdf
+    -o ${f/".md"/".pdf"}
+done

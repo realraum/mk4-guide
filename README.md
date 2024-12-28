@@ -1,6 +1,6 @@
 ---
 title: 3D-Druck Einführung (MK4 Drucker)
-author: Maciej Krüger (mkg20001) and contributors
+author: Maciej Krüger (mkg20001) und Bernhard Tittelbach (xro)
 ---
 
 # 3D-Druck Einführung (MK4 Drucker)
