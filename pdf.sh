@@ -31,5 +31,6 @@ for f in *.md; do
     -V monofont="DejaVu Sans Mono" \
     --pdf-engine=xelatex \
     --filter=emoji/emoji_filter.js \
+    --lua-filter=version.lua \
     -o ${f/".md"/".pdf"}
 done
