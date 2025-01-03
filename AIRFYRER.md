@@ -1,3 +1,8 @@
+---
+title: Heißluftfritößen Guide
+author: Maciej Krüger (mkg20001)
+---
+
 # Heißluftfritöße
 
 Am unteren Rad die Temperatur einstellen.
