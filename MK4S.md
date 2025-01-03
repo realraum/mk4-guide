@@ -5,8 +5,6 @@ author: Maciej Krüger (mkg20001) und Bernhard Tittelbach (xro)
 
 # 3D-Druck Einführung (MK4 Drucker)
 
-_Fehlt etwas? Verbesserungsvorschläge? GitHub: github.com/realraum/mk4-guide_
-
 ---
 WICHTIG: Der Drucker wurde vor kurzem auf MK4S upgraded
 

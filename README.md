@@ -1,3 +1,8 @@
+---
+title: Realraum Guides
+author: serveral people
+---
+
 # Guides
 
 This is a collection of manuals and guides for things in realraum.
